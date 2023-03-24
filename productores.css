@@ -1,0 +1,317 @@
+body {
+    background-color: #080808;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='100' y1='33' x2='100' y2='-3'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='100' y1='135' x2='100' y2='97'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23070707' fill-opacity='0.6'%3E%3Crect x='100' width='100' height='100'/%3E%3Crect y='100' width='100' height='100'/%3E%3C/g%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23a)' points='100 30 0 0 200 0'/%3E%3Cpolygon fill='url(%23b)' points='100 100 0 130 0 100 200 100 200 130'/%3E%3C/g%3E%3C/svg%3E"); 
+   }
+  
+    main{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-bottom: 5px;
+    }
+  
+    header .menu {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+  
+      font-weight: bold;
+    }
+  
+    .logo {
+      width: 100px;
+      height: 100px;
+      padding-left: 5px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      border-radius: 100%;
+  
+    }
+    
+    .ul-menu li {
+      display: inline-block;
+      padding: 0px 20px;
+    }
+    
+    .a-menu {
+      color: white;
+      text-decoration: none;
+      font-family: monospace;
+      font-size: 15px;
+    }
+    
+    .a-menu:hover {
+      color: #800080;
+    }
+  
+    input{
+      font: inherit;
+    }
+    
+    section{
+      min-height: 30vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    form{
+      margin-bottom: 10px;
+    }
+  
+    form > div {
+      display: flex;
+      background:#fff;
+      padding: 9px 22px 9px 26px;
+      border-radius: 30px;
+      border:2px solid #cad3dc;
+      box-shadow: rgba(255, 255, 255, 0.5) -8px -8px 15px,
+        rgba(0, 0, 0, 0.1) 10px 10px 10px,
+        rgba(255, 255, 255, 0.5) -8px -8px 15px inset,
+        rgba(0, 0, 0, 0.1) 10px 10px 10px inset;
+    }
+    form input {
+      border:none;
+      background: transparent;
+      font-weight: bold;
+      padding-left: 30px;
+      background-image: url(https://w7.pngwing.com/pngs/213/564/png-transparent-magnifying-glass-magnification-magnifying-glass-glass-logo-light.png) ;
+      background-size: 30px;
+      background-repeat: no-repeat;
+      width: 0px;
+      transition: all 1s;
+    }
+    form input:focus {
+      outline: none;
+      width: 300px;
+    }
+  
+  
+    .linea{
+      border: 1px solid white;
+    }
+  
+    .titulo{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      margin-top: 50px;
+      font-size: 50px;
+      font-family: monospace;
+    }
+  
+    #artistas-box{
+      display: block;
+      margin-top: 30px;
+      margin-bottom: 100px;
+      margin-right: 45px;
+      margin-left: 45px;
+      border: 1px;
+      border-radius: 10px;
+      border-style: groove;
+      border-color: white;
+      width: 240px;
+      height: 300px;
+      background-color: #080808;
+    }
+  
+  
+    .imagenes{
+      margin-top: 15px;
+      margin-left: 46px;
+      width: 150px;
+      height: 150px;
+      background-color: gray;
+    }
+  
+    h1{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 0px;
+      margin: 0%;
+      font-weight: bold;
+      color: white;
+    }
+  
+    p{
+      margin-left: 10px;
+      margin-bottom: 20px;
+      color: black;
+      text-decoration: none;
+    }
+  
+    #artistas-box:hover{
+      background-color: #800080;
+      transform: scale(0.90);
+    }
+
+    .akontitle{
+        margin-top: 30px;
+      }
+    
+    .rockytitle1{
+        margin-top: 20px;
+      }
+    
+      .badbunnytitle1{
+        margin-top: 20px;
+      }
+    
+      .bzrptitle{
+        margin-top: 30px;
+      }
+    
+     .canserberotitle{
+        margin-top: 30px;
+      }
+    
+      .chenchotitle1{
+        margin-top: 20px;
+      }
+    
+    .cosculluelatitle{
+        margin-top: 30px;
+      }
+    
+      .daddyyankeetitle1{
+        margin-top: 20px;
+      }
+    
+    .khaledtitle1{
+        margin-top: 20px;
+      }
+    
+      .nelsontitle1{
+        margin-top: 20px;
+      }
+    
+      .donomartitle1{
+        margin-top: 20px;
+      }
+    
+      .draketitle{
+        margin-top: 30px;
+      }
+    
+      .dretitle{
+        margin-top: 30px;
+      }
+    
+      .eazytitle{
+        margin-top: 30px;
+      }
+    
+    .eminemtitle{
+        margin-top: 30px;
+      }
+    
+    .feidtitle{
+        margin-top: 30px;
+      }
+    
+    .futuretitle{
+        margin-top: 30px;
+      }
+    
+    .elfathertitle1{
+        margin-top: 20px;
+      }
+    
+     .wheelertitle1{
+        margin-top: 20px;
+      }
+    
+      .jaytitle{
+        margin-top: 30px;
+      }
+    
+     .jhaycotitle1{
+        margin-top: 20px;
+      }
+    
+      .jontitle{
+        margin-top: 30px;
+      }
+    
+    .waynetitle1{
+        margin-top: 20px;
+      }
+    
+    .kanyetitle1{
+        margin-top: 20px;
+      }
+    
+     .kendricktitle1{
+        margin-top: 20px;
+      }
+    
+      .millertitle1{
+        margin-top: 20px;
+      }
+    
+    .moratitle{
+        margin-top: 30px;
+      }
+    
+    .rawtitle1{
+        margin-top: 20px;
+      }
+    
+      .residentetitle{
+        margin-top: 20px;
+      }
+    
+    .roddytitle1{
+        margin-top: 20px;
+      }
+    
+    .snooptitle1{
+        margin-top: 20px;
+      }
+    
+      .tainytitle{
+        margin-top: 30px;
+      }
+    
+    The Notorius B.I.G/
+    
+    .weekndtitle1{
+        margin-top: 20px;
+      }
+    
+      .travistitle1{
+        margin-top: 20px;
+      }
+    
+    .tylertitle1{
+        margin-top: 20px;
+      }
+    
+      .wisintitle{
+        margin-top: 30px;
+      }
+
+      footer {
+        background-color: #080808;
+        padding: 20px;
+        text-align: center;
+      }
+    
+      .footer{
+        color: white;
+      }
+      
+      .redes-sociales a {
+        display: inline-block;
+        margin: 0 10px;
+        color: white;
+        text-decoration: none;
+        margin-top: 50px;
+      }
+    
+      #redes{
+        width: 50px;
+        height: 50px;
+      }
